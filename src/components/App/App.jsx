@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import BooksList from '../BooksList/BooksList.jsx';
+import BooksItem from '../BooksItem/BooksItem';
 
 function App() {
     let [booksArray, setBooksArray] = useState([]);
@@ -22,6 +23,16 @@ function App() {
             console.log('Check GET books',error);
             alert('Something Went Wrong')
         })
+    }
+    
+    function searchBook() {
+        let input, filter, book;
+        input = document.getElementById(BooksItem);
+        filter = input.value.toUpperCase();
+
+        for( let i = 0; i < BooksList.length; i++){
+            
+        }
     }
 
     return (
