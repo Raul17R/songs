@@ -2,7 +2,6 @@ import { useState } from "react";
 
 function BooksItem({booksItem}){
     let [toggle, setToggle] = useState(false);
-    //Returning books from modules
     return(
         <div>
             <button onClick={() => setToggle(!toggle)}>
