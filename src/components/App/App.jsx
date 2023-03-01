@@ -26,6 +26,11 @@ function App() {
       })
     }
 
+    const searchBooks = () =>{
+      const input = '';
+
+    }
+    //need a click handler to search for the book, with this function.
 
 
   //  const updateLikeImage = (galleryId) =>{
@@ -42,9 +47,10 @@ function App() {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Gallery of My Life</h1>
+          <h1 className="App-title">BOOK SEARCH 1</h1>
         </header>
-        <p>Gallery goes here</p>
+        <p>Seaching....</p>
+        <input className='searchBar' placeholder="Search Books"></input>
         <BooksList booksArray={booksArray}
         // updateLikeImage={updateLikeImage}
         />

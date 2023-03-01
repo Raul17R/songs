@@ -1,6 +1,10 @@
 .App {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+  
   
   .App-header {
     background-color: #222;
@@ -13,3 +17,6 @@
     font-size: 1.5em;
   }
   
+.searchBar{
+  width: 200px;
+}

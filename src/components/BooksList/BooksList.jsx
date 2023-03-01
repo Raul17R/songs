@@ -11,7 +11,6 @@ function BooksList({booksArray}){
                         <div className="search-1">
                             <label for="search">
                                 <div className="body">
-                                    <input placeholder="Search Books"></input>
                                 <BooksItem
                                     key={booksItem.id}
                                     booksItem={booksItem}
